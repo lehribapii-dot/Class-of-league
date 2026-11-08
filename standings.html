@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#09080e"><meta name="description" content="The Class League — compete, connect, conquer.">
+<title>League Standings | The Class League</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="standings">
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="index.html"><span class="brand-mark">CL<span>✦</span></span><span class="brand-name">THE CLASS<small>LEAGUE OF FRIENDS</small></span></a>
+  <div class="sidebar-label">MAIN ARENA</div>
+  <nav class="side-nav"><a class="nav-link" href="index.html"><span class="nav-ico">⌂</span><span>Overview</span></a><a class="nav-link active" href="standings.html"><span class="nav-ico">♜</span><span>Standings</span><i class='nav-dot'></i></a><a class="nav-link" href="schedule.html"><span class="nav-ico">◷</span><span>Schedule</span></a><a class="nav-link" href="tournaments.html"><span class="nav-ico">♛</span><span>Tournaments</span></a><a class="nav-link" href="roster.html"><span class="nav-ico">◎</span><span>Players</span></a><a class="nav-link" href="community.html"><span class="nav-ico">✦</span><span>Community</span></a><a class="nav-link" href="challenges.html"><span class="nav-ico">⚡</span><span>Challenges</span></a><a class="nav-link" href="hall-of-fame.html"><span class="nav-ico">🏆</span><span>Hall of Fame</span></a><a class="nav-link" href="profile.html"><span class="nav-ico">◉</span><span>My Profile</span></a><a class="nav-link" href="notifications.html"><span class="nav-ico">♧</span><span>Alerts</span></a><a class="nav-link" href="rules.html"><span class="nav-ico">≡</span><span>Rules</span></a><a class="nav-link" href="admin.html"><span class="nav-ico">⚙</span><span>Admin Preview</span></a></nav>
+  <div class="sidebar-bottom"><div class="season-mini"><span class="live-pulse"></span><div><b>SEASON 01</b><small>DEMO ARENA ACTIVE</small></div></div><div class="sidebar-note">BUILT FOR FRIENDLY RIVALRY.<br><span>POWERED BY COMMUNITY.</span></div></div>
+</aside>
+<div class="main-column">
+<header class="topbar"><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button><div class="breadcrumb"><span>THE CLASS LEAGUE</span><i>/</i><b>LEAGUE STANDINGS</b></div><div class="top-actions"><span class="demo-pill"><i></i> DEMO MODE</span><a class="icon-button" href="notifications.html" aria-label="Notifications">♧<b class="notification-dot"></b></a><a class="user-mini" href="profile.html"><span class="mini-avatar">DP</span><span>Demo Player<small>LEVEL 08</small></span></a></div></header>
+<main class="content">
+<section class="page-intro reveal"><div><div class="eyebrow">SEASON 01 · LIVE DEMO</div><h1>THE <span class="gradient-text">RANKINGS.</span></h1><p>Every match matters. Every point counts.</p></div><span class="season-chip">◉ DEMO DATA</span></section>
+<section class="podium-grid standings-podium reveal"><article class="podium-card second"><div class="podium-rank">02</div><div class="avatar avatar-violet">AX</div><h3>Alex</h3><strong>870 <small>PTS</small></strong><div class="podium-base">2ND</div></article><article class="podium-card first"><div class="crown">♛</div><div class="podium-rank">01</div><div class="avatar avatar-gold">SX</div><h3>ShadowX</h3><strong>950 <small>PTS</small></strong><div class="podium-base">LEADER</div></article><article class="podium-card third"><div class="podium-rank">03</div><div class="avatar avatar-pink">PH</div><h3>Phantom</h3><strong>790 <small>PTS</small></strong><div class="podium-base">3RD</div></article></section>
+<section class="panel reveal"><div class="panel-head"><div><div class="eyebrow">THE TABLE</div><h2>Player leaderboard</h2></div><span class="status status-demo">SAMPLE RANKINGS</span></div><div class="table-tools"><input id="playerSearch" class="search-input" placeholder="⌕  Search players..."><select id="rankFilter" class="select-input"><option value="all">All players</option><option value="top">Top 5</option></select></div><div class="table-wrap"><table class="league-table" id="standingsTable"><thead><tr><th>RANK</th><th>PLAYER</th><th>W</th><th>L</th><th>WIN RATE</th><th>POINTS</th><th>FORM</th></tr></thead><tbody></tbody></table></div><p class="footnote">ⓘ Rankings are illustrative demo data. Firebase sync is coming soon.</p></section>
+<footer class="footer"><div class="footer-brand">THE CLASS LEAGUE <span>✦</span></div><p>Compete · Connect · Conquer</p><small>© 2026 THE CLASS LEAGUE. DEMO EDITION. · <a href="rules.html">FAIR PLAY FIRST</a></small></footer>
+</main>
+</div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="js/demo-data.js"></script><script src="js/app.js"></script>
+</body></html>
